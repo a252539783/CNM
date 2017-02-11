@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/xy"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="李权飞"
+            android:id="@+id/text_name"
+            android:gravity="center_vertical|right"
+            android:paddingBottom="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="04153036"
+            android:id="@+id/text_usr"
+            android:paddingBottom="20dp"
+            android:gravity="center_vertical|right"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content" />
+
+        <ExpandableListView
+            android:layout_width="match_parent"
+            android:id="@+id/op_list"
+            android:layout_height="match_parent"
+            android:groupIndicator="@drawable/text_table"
+            android:headerDividersEnabled="true"
+            android:footerDividersEnabled="true">
+        </ExpandableListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

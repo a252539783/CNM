@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="0dp"
+        android:text="课程"
+        android:id="@+id/sub"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_marginRight="1dp"
+        android:gravity="center"
+        android:background="@drawable/text_table"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:text="成绩"
+        android:id="@+id/chengji"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:background="@drawable/text_table"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/xuefen"
+        android:layout_marginRight="1dp"
+        android:text="学分"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:background="@drawable/text_table"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:text="绩点"
+        android:id="@+id/jidian"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:background="@drawable/text_table"/>
+
+</LinearLayout>
